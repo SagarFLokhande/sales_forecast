@@ -1,0 +1,1 @@
+grep -o  "AIC-[0-9]*\.[0-9]*" arima_models_AIC.txt | cut -d "-" -f2 | sort -n
